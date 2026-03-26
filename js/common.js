@@ -33,5 +33,5 @@ window.addEventListener('load', function () {
     </div>
     `;
 
-    setLang(localStorage.setItem('lang',l) || 'ru');
+    setLang(localStorage.getItem('lang') || 'ru');
 });
