@@ -16,10 +16,13 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16
 
 [data-lang]{display:none;}
 span[data-lang]{display:none;}
+a[data-lang]{display:none;}
 body:not(.ru) [data-lang="en"]{display:block;}
 body.ru [data-lang="ru"]{display:block;}
 body:not(.ru) span[data-lang="en"]{display:inline;}
 body.ru span[data-lang="ru"]{display:inline;}
+/* body:not(.ru) a[data-lang]{display:block;} */
+body.ru a[data-lang="ru"]{display:inline;}
 
 /* PAGE */
 .page{max-width:900px;margin:0 auto;padding:4rem 2.5rem 6rem;}
