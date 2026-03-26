@@ -21,7 +21,6 @@ body:not(.ru) [data-lang="en"]{display:block;}
 body.ru [data-lang="ru"]{display:block;}
 body:not(.ru) span[data-lang="en"]{display:inline;}
 body.ru span[data-lang="ru"]{display:inline;}
-/* body:not(.ru) a[data-lang]{display:block;} */
 body.ru a[data-lang="ru"]{display:inline;}
 
 /* PAGE */
